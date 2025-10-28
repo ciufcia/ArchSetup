@@ -4,7 +4,8 @@ set -eo pipefail
 
 echo "Installing Hyprland and configuring..."
 
-sudo pacman -S --noconfirm --needed hyprland hyprpolkitagent
+sudo pacman -S --noconfirm --needed hyprland hyprpolkitagent hyprpaper
 
 mkdir -p ~/.config/hypr
-ln -sf "$(pwd)/configs/hypr/hyprland.conf" ~/.config/hypr/hyprland.conf
+ln -sf ~/ArchSetup/configs/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+ln -sf ~/ArchSetup/configs/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf

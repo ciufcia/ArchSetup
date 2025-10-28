@@ -9,4 +9,3 @@ sudo locale-gen
 echo 'LANG=en_US.UTF-8' | sudo tee /etc/locale.conf
 
 echo 'KEYMAP=pl' | sudo tee -a /etc/vconsole.conf
-
