@@ -8,5 +8,6 @@ bash ./scripts/network.sh
 bash ./scripts/base.sh
 bash ./scripts/fonts.sh
 bash ./scripts/nvidia.sh
+bash ./scripts/tools.sh
 bash ./scripts/hyprland.sh
 bash ./scripts/apps.sh
