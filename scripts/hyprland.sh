@@ -4,7 +4,7 @@ set -eo pipefail
 
 echo "Installing Hyprland and configuring..."
 
-sudo pacman -S --noconfirm --needed hyprland hyprpolkitagent hyprpaper waybar wofi
+sudo pacman -S --noconfirm --needed hyprland hyprpolkitagent hyprpaper waybar wofi ly
 
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins || true
@@ -19,3 +19,5 @@ ln -sf ~/ArchSetup/configs/waybar/style.css ~/.config/waybar/style.css
 
 mkdir -p ~/.config/wofi
 ln -sf ~/ArchSetup/configs/wofi/style.css ~/.config/wofi/style.css
+
+sudo systemctl enable ly.service
