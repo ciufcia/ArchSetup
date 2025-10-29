@@ -1,0 +1,25 @@
+* {
+    font-family: Noto Sans Mono, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+window#waybar {
+    background-color: #282828;
+}
+
+#clock {
+    color: #ebdbb2;
+    padding-right: 10px;
+}
+
+#workspaces {
+  margin: 0 10px;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  margin: 0 2px;
+  background: #282828;
+  color: #ebdbb2;
+  border: none;
+}

@@ -1,0 +1,18 @@
+{
+    "height": 30,
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["clock"],
+
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+
+    "hyprland/workspaces": {
+		"format": "{name} {icon}",
+		"format-icons": {
+			"active": "●",
+			"default": "○"
+		}
+    }
+}
