@@ -2,6 +2,8 @@
 
 set -eo pipefail
 
+sudo pacman -S --noconfirm --needed steam
+
 yay -S --noconfirm --needed visual-studio-code-bin librewolf-bin foot
 
 mkdir -p ~/.config/foot
